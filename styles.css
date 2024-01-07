@@ -1,0 +1,142 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+header {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#footer-text {
+    color: white;
+    text-align: center;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+#header-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#header-link {
+    text-align: right;
+}
+
+#header-link, #hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 20px;
+    border-color: #E5E7EB;
+}
+
+#header-img {
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+#section-two {
+    background-color: #E5E7EB;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+}
+
+#quote-source {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 500px;
+    padding-bottom: 50px;
+}
+
+#inner-section {
+    background-color: #3882F6;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#call-to-action, #sign-up {
+    color: white;
+}
+
+#call-to-action {
+    font-size: 25px;
+}
+
+#button-section {
+    padding-top: 50px;
+}
+
+#action-section {
+    flex-grow: 3;
+    padding-left: 100px;
+}
+
+.flex-container-img, .flex-container-text {
+    display: flex;
+    gap: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.flex-img {
+    flex: 1;
+    border: 1px solid blue;
+    height: 130px;
+    width: 30px;
+}
+
+.section-one-img {
+    max-width: 100%;
+    height: 130px;
+    object-fit: fill;
+}
+
+.flex-text {
+    flex: 1;
+    color: black;
+    text-align: center;
+}
